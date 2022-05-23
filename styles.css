@@ -64,7 +64,7 @@ img {
     margin-bottom: 10px;
 }
 
-#history {
+#history { /* There is a problem here with list items not placing themselves "together" with text, figure out why */
     text-align: center;
     padding: 50px;
     border: solid red 1px;
