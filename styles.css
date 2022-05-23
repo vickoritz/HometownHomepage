@@ -1,18 +1,94 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Akshar', sans-serif;
 }
 
 img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#place-name {
+    background: rgb(80, 151, 32);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#place-desc {
+    margin: 0;
+    background: rgb(186, 228, 159);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#hero {
+    background-image: url("https://i0.wp.com/fantastiskemarka.no/wp-content/uploads/2019/07/utsikt-over-store-sandungen-oslomarka-nordmarka-fantastiske-marka.jpg?fit=800%2C533&ssl=1");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    padding: 150px;
+    margin: 0;
+    Font-weight: 600;
+}
+
+#hero:hover {
+    background-image: url("https://dms-cf-09.dimu.org/image/03349SRm6thn?dimension=1200x1200");
+}
+
+#activities {
+    padding-top: 50px;
+    background: #F1FAEE;
+    margin: 0;    
+    border: solid transparent 1px;   /* This removed blank space between hero and activities - why? And how to remove that in a proper way? */
+}
+
+#activities-list {
+    display: flex;
+    padding: 30px 0 60px 0;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+}
+
+.activities-items {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#history {
+    text-align: center;
+    padding: 50px;
+    border: solid red 1px;
+}
+
+#guide {
+    background: #FFFFFF;
+    padding: 70px;
+    justify-content: space-around;
+}
+
+#guide-card {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: linear-gradient(45deg, rgb(186, 228, 159), white);
+    color: rgb(10, 32, 3);
+    border-bottom: 6px solid yellowgreen;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+#guide-img {
+    border-radius: 10px;
     width: 100px;
+    height: 150px;
 }

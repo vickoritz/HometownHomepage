@@ -2,29 +2,64 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap" rel="stylesheet">
     </head>
     <body>
         
         <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Torshov</h1>
-            <h2>Enjoy culture and sports in this vibrant district close to the center of Oslo.</h2>
+        <div id="hero">
+            <h1 id="place-name">Visit Frysja</h1>
+            <h2 id="place-desc">Enjoy nature and sports in this magical place<br> where the forrest meets the city of Oslo.</h2>
         </div>
         
         <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/park.jpg">
-            <img src="images/theatre.jpg">
-            <img src="images/sports.jpg">
+        <div id="activities">
+            <h3>Top three activities to do at Frysja</h3>
+            <div id="activities-list">
+                <div class="activities-items"> 
+                    <img src="https://ok-moss.klubbnettside.no/images/main/phpwQfnmv.jpg">
+                    <p><strong>Tour-orientering in Nordmarka</strong></p>
+                    <p>Orienteering is a group of sports that require navigational skills using a map and compass to navigate from point to point in terrain whiles walking.</p>
+
+                </div>              
+                <div class="activities-items">                
+                    <img src="https://res.cloudinary.com/ntb/image/upload/w_1280,q_80/v1/trips/v96vts9v9czorku4nqfz">
+                    <p><strong>Go for a swim in Brekkedammen</strong></p>
+                    <p>Brekkedammen by Frysja is a popular place to take a swim in fresh water, with the cleanest water in all of Oslo as it comes from Maridansvannet, Oslos drinking water source</p>
+                </div>               
+                <div class="activities-items">
+                    <img src="https://www.datocms-assets.com/55942/1633535036-de-beste-gravelturene-i-nordmarka.jpg">
+                    <p><strong>Cycling Route "Ring 3"</strong></p>
+                    <p>On of the rountes starting at Frysja and going into Nordmarka, is so popular that it has been called "Ring 3", an extention of the highways around Oslo.</p>
+                </div>
+            </div>
+        </div>       
+        
+        <!-- HISTORY SECTION -->
+        <div id="history">
+            <h3>History of Frysja</h3>
+            <p>Someting about the history, and some key historical dates</p>
+            <ul>
+                <li>Historic date</li>
+                <li>Historic date</li>
+                <li>Historic date</li>
+            </ul>
         </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
+        <div id="guide">
+            <div id="guide-card">
+                <div>
+                   <img id="guide-img" src="https://media.cdn.teamtailor.com/images/s3/teamtailor-production/employee_picture-v3/image_uploads/08c4d4ef-7e5a-4743-85d6-7ae5ca48f64c/original.jpeg">
+                </div>
+                <div>
+                    <h3>Your guide</h3>
+                    <p>"I have lived in Oslo all my life, so I can show you all of it's best parts and hidden secrets."</p>
+                    <h4>Victoria</h4>
+                </div>
+            </div>
         </div>
     </body>
 </html>
