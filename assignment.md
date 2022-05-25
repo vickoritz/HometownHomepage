@@ -12,7 +12,7 @@
 * Use a different colour palette ✅
 * Add a Google Font ✅
 * Find a way to use :hover ✅
-* Add a whole new section 
+* Add a whole new section ✅
 
 ## Assets: 
 * Figma file: https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage?node-id=0%3A1

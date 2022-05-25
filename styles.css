@@ -65,8 +65,8 @@ img {
 
 #history { /* There is a problem here with list items not placing themselves "together" with text, figure out why */
     padding: 50px;
-    border: solid red 1px;
-    text-align:center;
+    border: solid rgba(14, 13, 13, 0.205) 1px;
+    text-align: center;
 }
 
 #guide {
