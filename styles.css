@@ -46,7 +46,6 @@ img {
     padding-top: 50px;
     background: #F1FAEE;
     margin: 0;    
-    border: solid transparent 1px;   /* This removed blank space between hero and activities - why? And how to remove that in a proper way? */
 }
 
 #activities-list {
